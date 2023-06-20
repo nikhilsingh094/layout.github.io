@@ -81,7 +81,7 @@ nav img{
 /* end header section */
 
 .section-two{
-    margin-top:7rem;
+    margin-top:6rem !important;
 }
 
 .section-three{
@@ -530,7 +530,7 @@ nav img{
     }
 
     .section-two{
-      margin-top: 15rem;
+      margin-top: 10rem !important;
     }
 
     .sect-two{
