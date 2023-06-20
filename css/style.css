@@ -483,6 +483,7 @@ nav img{
    }
 
    @media screen and (max-width:576px){
+
     .hero-text{
       display: flex;
       justify-content: center;
@@ -503,8 +504,9 @@ nav img{
     }
 
     .hero-section img{
-      width: 30rem;
-      margin-top: -5rem;
+      width: 25rem;
+      margin-top: -3rem;
+      margin-left: -1rem;
     }
 
     .happy-customer{
@@ -535,7 +537,7 @@ nav img{
     }
 
     .section-three{
-      height: 35vh;
+      height: auto;
     }
 
     .it-solution{
@@ -544,6 +546,14 @@ nav img{
 
     .section-four img{
       max-width: 82% !important;
+    }
+
+    .sect-4 p, h4{
+      text-align: center;
+    }
+
+    .sect-4-head{
+      text-align: center;
     }
 
     .sect-five{
@@ -579,8 +589,17 @@ nav img{
       margin-top: 1.5rem;
     }
 
+    .card-14{
+      margin-bottom: 0 !important;
+    }
+
+    .card-16{
+      margin-bottom: 0 !important;
+    }
+
     .section-eight{
-      height: 30rem;
+      height: auto;
+      padding: 2rem;
     }
 
     .sect-nine{
@@ -595,6 +614,17 @@ nav img{
       justify-content: center;
       align-items: center;
       flex-direction: column;
+    }
+
+    .footer-section-1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer-p p{
+      font-size: 7px;
     }
 
    }
