@@ -488,6 +488,25 @@ nav img{
 
    @media screen and (max-width:576px){
 
+    #navbarSupportedContent{
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    .navbar-nav{
+      text-align: center;
+    }
+
+    .nav-item  a{
+      color: black !important;
+    }
+
+    .dropdown-menu{
+      text-align: center !important;
+    }
+
+
+
     .hero-text{
       display: flex;
       justify-content: center;
