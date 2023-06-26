@@ -8,14 +8,33 @@ body{
     background-color: #101923 !important;
 }
 
+
 /* header section */
 .header{
     height: 100vh;
-    background-image: url('../images/hero2.jpg');
+    background-image: url('../images/technology-network-background_34629-304.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: auto;
+}
+
+.header-about{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/about-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.header-contact{
+  height: 60vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/about-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
 }
 
 .nav-item a{
@@ -47,28 +66,28 @@ nav img{
   border-color: #33A9FF !important;
 }
 
-.happy-customer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #1B293B;
-    color: #fff;
-    width: 60rem;
-    margin: auto;
-    border-radius: 0.3rem;
-    margin-top: -5rem;
-    padding:.8rem;
-}
+
 
 .happy-customer h3{
     font-size: 2.5rem;
 }
 
-.happy-customer p{
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-align: center;
+
+
+.about-happy-customer p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-sec {
+  margin-top: -28rem;
+}
+
+.happy-cust{
+  background-color: #435D78;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 .logoimg{
@@ -79,6 +98,7 @@ nav img{
 }
 
 /* end header section */
+
 
 .section-two{
     margin-top:6rem !important;
@@ -229,6 +249,54 @@ nav img{
     background-color: #1B293B;
 }
 
+.about-section-nine{
+  background-color: #1B293B;
+  margin-top: 5rem;
+}
+
+.about-section-ten{
+  margin-top: 5rem;
+}
+
+.about-section-11{
+  margin-top: 5rem;
+}
+
+.about-section-card-1{
+  background-color: #1B293B !important;
+  
+}
+
+.about-card-2{
+background-color: #33a9ff !important;
+
+}
+
+.about-card-3{
+  background-color: #1fbf75 !important;
+}
+
+.about-card-4{
+  background-color: #766bf8 !important;
+}
+
+.about-card-5{
+  background-color: #435D78 !important;
+}
+
+.form-container{
+  background-color: #1B293B !important;
+  padding: 4rem !important;
+}
+
+.row-contact-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  row-gap: 0.6rem;
+}
+
 .sect-nine-row{
   padding-top: 5rem;
 }
@@ -308,6 +376,15 @@ nav img{
     margin-top: 5rem;
     background-color:#435D78;
 }
+
+.about-section-12{
+  background-color:#435D78;
+}
+
+.about-section-12 img{
+  width:12rem !important;
+}
+
 
 .section-12 img{
     width:12rem !important;
@@ -490,167 +567,194 @@ nav img{
 
     #navbarSupportedContent{
       background-color: #fff;
-      border-radius: 5px;
+      padding:1.5rem;
     }
 
-    .navbar-nav{
-      text-align: center;
-    }
-
-    .nav-item  a{
+    .nav-link{
       color: black !important;
+      text-align: center;
+      font-weight: bold;
     }
 
-    .dropdown-menu{
-      text-align: center !important;
-    }
-
-
-
-    .hero-text{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 1.5rem;
-    }
-
-    .hero-text h1,p{
+    .nav-bt{
       text-align: center;
     }
 
-    .hero-section{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 1.5rem;
+    .hero-sec{
+      margin-top: -36rem;
     }
 
-    .hero-section img{
-      width: 25rem;
-      margin-top: -3rem;
-      margin-left: -1rem;
+    .abc-p{
+      text-align: center;
     }
 
-    .happy-customer{
-      width: auto;
-    }
-
-    .happy-customer h3{
-      font-size: 1rem;
-    }
-
-    .logo-img{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .abc{
       flex-direction: column;
-      gap: 1rem;
     }
 
-    .section-two{
-      margin-top: 10rem !important;
+    .moving-paragraph{
+      text-align: center;
+      white-space: revert;
+    }
+
+    .bt{
+      text-align: center;
+    }
+
+    .happy-cust{
+      text-align: center;
+      background-color: #435D78;
+      padding: 1rem;
     }
 
     .sect-two{
       display: flex;
-      justify-content: center;
       align-items: center;
-      margin-bottom: 1.5rem;
+      justify-content: center;
+      margin-top: 0.5rem !important;
+  
     }
 
-    .section-three{
+    .section-three {
+      margin-top: 5rem;
+      padding: 1rem;
       height: auto;
     }
 
-    .it-solution{
-      padding: 3rem;
-    }
+    .it-solution {
+      padding-top: 0rem !important;
+  }
 
-    .section-four img{
-      max-width: 82% !important;
-    }
+  .sect-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    .sect-4 p, h4{
-      text-align: center;
-    }
+  .card-section-five-three {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
 
-    .sect-4-head{
-      text-align: center;
-    }
+.sect-six{
+  flex-direction: column;
+}
 
-    .sect-five{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
+.card-9,.card-10,.card-11,.card-12{
+  margin-bottom: 1.2rem !important;
+}
 
-    .card-6{
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
 
-    .sect-six{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
 
-    .card-10{
-      margin-bottom: 0 !important;
-      margin-top: 1.5rem;
-    }
+.section-eight {
+  height:auto;
+  padding: 2rem;
+}
 
-    .card-11{
-      margin-top: 1.5rem;
-    }
+.sect-8 {
+  padding-top:0rem;
+}
 
-    .card-12{
-      margin-bottom: 0 !important;
-      margin-top: 1.5rem;
-    }
+.sect-nine{
+  flex-direction: column;
+}
 
-    .card-14{
-      margin-bottom: 0 !important;
-    }
+.sct-10{
+  text-align: center;
+}
 
-    .card-16{
-      margin-bottom: 0 !important;
-    }
+.card-14{
+  margin-bottom: 0rem !important;
+}
 
-    .section-eight{
-      height: auto;
-      padding: 2rem;
-    }
+.card-16{
+  margin-bottom: 0rem !important;
+}
 
-    .sect-nine{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
+.sect-10{
+  flex-direction: column;
+}
 
-    .sect-10{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
+.footer-p{
+  font-size: 7px;
+}
 
-    .footer-section-1{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .footer-p p{
-      font-size: 7px;
-    }
 
    }
+
+   @media (min-width: 768px) and (max-width: 1024px){
+
+    #navbarSupportedContent{
+      background-color: #fff;
+      padding:1.5rem;
+    }
+
+    .nav-link{
+      color: black !important;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .nav-bt{
+      text-align: center;
+    }
+
+    .hero-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12rem;
+    margin-top: -40rem;
+}
+    .happy-cust{
+      text-align: center;
+    }
+
+    .header{
+      height: 75vh !important;
+    }
+   
+    
+    
+.card-1,.card-2,.card-3{
+  width: 14rem !important;
+}
+
+.section-two{
+  margin-top: 10rem !important;
+}
+
+.section-three{
+  height: 35vh;
+}
+
+.card-4,.card-5,.card-6,.card-7,.card-8{
+  width: 14rem !important;
+}
+
+.card-6{
+  height: 100% !important;
+}
+
+.card-section-five-three img {
+  height: 13rem;
+  padding-bottom: 0.1rem;
+}
+
+.section-eight {
+  height: 35vh;
+}
+
+.footer-p{
+  font-size: 14px;
+}
+
+.footer-p p{
+  font-size: 14px;
+}
+}
    
 
    

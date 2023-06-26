@@ -20,10 +20,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Homepage</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,49 +36,62 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
-                  <li><button type="button" class="btn btn-primary">Get Started</button></li>
+                  <li class="nav-bt"><button type="button" class="btn btn-primary">Get Started</button></li>
                 </ul>
               </div>
             </div>
-          </nav>
-          <section>
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-6 hero-text">
-                        <p>START YOUR DIGITAL BUSINESS</p>
-                        <h1 class="text-white moving-paragraph">WE Make IT simple,<br> faster, and less <br> expensive</h1>
-                        <p class="text-white moving-paragraph">Vivamus morbi nisi natoque finibus facilisis. Risus scelerisque ipsum senectus <br> vitae pulvinar phasellus fames.</p>
-                        <div>
-                            <button type="button" class="btn btn-primary">Get Started</button>
-                            <button type="button" class="btn btn-primary learnmore-btn">Learn More</button>
-                        </div>
-                    </div>
-                    <div class="col-md-6 hero-section">
-                        <img src="images/svgnew.png" alt="">
-                    </div>
-                </div>
-
-                <div class="happy-customer">
-                    <h3>Join our <span style="color: #33A9FF;">30,000</span>+ happy customers</h3>
-                    <div class="row">
-                        <div class="col-md-12">
-                          <div class="logo-img d-flex justify-content-center align-items-center gap-3">
-                           <p><img src="images/logo1.png" class="logoimg img-fluid" alt="">decyber</p>
-                           <p><img src="images/logo2.png" class="logoimg img-fluid" alt="">Clicknbuy</p>
-                           <p><img src="images/logo3.png" class="logoimg img-fluid" alt="">Conztrukta</p>
-                           <p><img src="images/logo4.png" class="logoimg img-fluid" alt="">Eduversita</p>
-                           <p><img src="images/logo7.png" class="logoimg img-fluid" alt="">cleanie Ceramiza</p>
-                          </div>    
-                          </div>
-                    </div>
-                </div>
-            </div>
-
-            
-          </section>
+          </nav>   
     </header>
+
+    <div class="container hero-sec">
+    <section class="sec-head">
+      <div class="container">
+        <div class="row justify-content-center"> <!-- Modified line -->
+          <div class="d-flex justify-content-center align-items-center abc">
+            <div class="col-md-6">
+              <p class="text-white abc-p">START YOUR DIGITAL BUSINESS</p>
+              <h1 class="text-white moving-paragraph">WE Make IT simple,<br> faster, and less <br> expensive</h1>
+              <p class="text-white moving-paragraph">Vivamus morbi nisi natoque finibus facilisis. Risus scelerisque ipsum senectus <br> vitae pulvinar phasellus fames.</p>
+              <div class="bt">
+                <button type="button" class="btn btn-primary">Get Started</button>
+                <button type="button" class="btn btn-primary learnmore-btn">Learn More</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="images/background2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="happy-cust">
+      <div class="container">
+        <div class="row justify-content-center"> <!-- Modified line -->
+          <h3 class="text-center text-white">Join our <span style="color: #33A9FF;">30,000</span>+ happy customers</h3>
+          <div class="col-lg-2 col-md-6 col-sm-3">
+            <p class="text-white"><img src="images/logo1.png" class="logoimg img-fluid" alt="">decyber</p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-3">
+            <p class="text-white"><img src="images/logo2.png" class="logoimg img-fluid" alt="">Clicknbuy</p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-3">
+            <p class="text-white"><img src="images/logo3.png" class="logoimg img-fluid" alt="">Conztrukta</p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-3">
+            <p class="text-white"><img src="images/logo4.png" class="logoimg img-fluid" alt="">Eduversita</p>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-3">
+            <p class="text-white"><img src="images/logo7.png" class="logoimg img-fluid" alt="">Ceramiza</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+    
 
     <section class="container section-two d-flex align-items-center justify-content-center flex-column">
         <p class="text-center fw-bold text-white">What We DO</p>
@@ -399,7 +412,7 @@
                         everything we do.</h3>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-                    <p style="color: #7CA9D7;">Sociosqu aenean facilisis fermentum aliquam velit sapien. Dictum conubia 
+                    <p style="color: #7CA9D7;" class="sct-10">Sociosqu aenean facilisis fermentum aliquam velit sapien. Dictum conubia 
                         eget curae massa nunc. Mollis nascetur platea aenean curae mi ultrices primis
                         torquent euismod.</p>
                     <button class="btn btn-primary">Learn more</button>    
