@@ -20,7 +20,7 @@ body{
 }
 
 .header-about{
-  height: 60vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/about-back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ body{
 }
 
 .header-contact{
-  height: 60vh;
+  height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/about-back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -680,6 +680,33 @@ background-color: #33a9ff !important;
   font-size: 7px;
 }
 
+.sec1-about-img{
+  margin-top: 2rem !important;
+}
+
+.about10-card-img{
+  flex-direction: column;
+}
+
+.about-section-card-1{
+  width: 18rem !important;
+}
+
+.about11-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contat-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col6{
+  width: 100% !important;
+}
 
    }
 
